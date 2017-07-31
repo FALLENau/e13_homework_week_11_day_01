@@ -1,8 +1,8 @@
-# e13 week 11 day 01
+# JavaScript Server Prac
 
-JavaScript Objectives of day 1 week 11. n\
--Write JS into Browser Console n\
--Use Chrome Dev Tools to see Resources n\
+JavaScript Objectives of day 1 week 11. \
+-Write JS into Browser Console \
+-Use Chrome Dev Tools to see Resources \
 -Understand how we can serve up JS to the browser
 
 ## Getting Started
