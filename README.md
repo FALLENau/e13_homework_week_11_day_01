@@ -7,7 +7,7 @@ JavaScript Objectives of day 1 week 11. \
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+First we made a basic sever with js to experience console within chrome, second we worked with DOM sever template.
 
 ### Prerequisites
 
