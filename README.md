@@ -1,6 +1,9 @@
 # e13 week 11 day 01
 
-One Paragraph of project description goes here
+JavaScript Objectives of day 1 week 11.
+-Write JS into Browser Console
+-Use Chrome Dev Tools to see Resources
+-Understand how we can serve up JS to the browser
 
 ## Getting Started
 
