@@ -7,14 +7,14 @@ JavaScript Objectives of day 1 week 11. \
 
 ## Getting Started
 
-First we made a basic sever with js to experience console within chrome, second we worked with DOM sever template.
+First use the startpoint.zip files to setup files, this will make a basic JS sever to experience console within chrome, and a  DOM sever template to start from.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+NPM + node_module sever
 
 ```
-Give examples
+$npm install
 ```
 
 ### Installing
