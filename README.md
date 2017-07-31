@@ -35,9 +35,22 @@ until finished
 
 End with an example of getting some data out of the system or using it for a little demo
 
-## Running the tests
+## Effecting 
 
-Explain how to run the automated tests for this system
+```
+var app = function () {
+  var hideQOTD = document.getElementById('quote-of-the-day')
+  hideQOTD.hidden = true
+
+  var articleColor = document.getElementsByTagName("article")
+
+  Array.from(articleColor).forEach(function(article){
+    article.className = "blue-quote"
+  })
+}
+
+window.addEventListener('load', app);
+```
 
 ### Break down into end to end tests
 
