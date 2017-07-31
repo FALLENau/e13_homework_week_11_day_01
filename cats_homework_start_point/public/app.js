@@ -1,7 +1,7 @@
 var addCat = function(name, favFoodQuote, img) {
   var ulCat = createUlCat();
-  var liName = createName(name);
-  var liFood = createFavQuote(favFoodQuote);
+  var liName = createLi(name);
+  var liFood = createLi(favFoodQuote);
   var liPhoto = createPhoto(img);
 
   appendElements(ulCat, liName, liFood, liPhoto);
@@ -15,16 +15,10 @@ var createUlCat = function() {
   return ul
 }
 
-var createName = function(nameOf) {
-  var name = document.createElement("li")
-  name.innerText = nameOf
-  return name
-}
-
-var createFavQuote = function(foodOf) {
-  var food = document.createElement("li")
-  name.innerText = foodOf
-  return food
+var createLi = function(li) {
+  var newLi = document.createElement("li")
+  name.innerText = li
+  return newLi
 }
 
 var createPhoto = function(newImg) {
@@ -35,6 +29,7 @@ var createPhoto = function(newImg) {
 
 var appendElements = function(ulCat, liName, liFood, liPhoto) {
   var section = document.querySelector("#cats")
+  section.appendChild(ulCat)
   ulCat.appendChild(liName)
   liName.appendChild(liFood)
   liFood.appendChild(liPhoto)
