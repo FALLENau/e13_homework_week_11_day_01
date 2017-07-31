@@ -48,4 +48,16 @@ var app = function () {
 addQuote("Reece", "Who loves cats")
 }
 
+var addQuote = function(author, quote) {
+
+}
+
+var getBlock = function () {
+preventDefault()
+// getBlock(author, quote)
+// addQuote("Reece", "Who loves cats")
+}
+
+
 window.addEventListener('load', app);
+window.addEventListener('submitting', getBlock);
