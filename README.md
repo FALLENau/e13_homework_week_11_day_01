@@ -35,9 +35,9 @@ until finished
 
 End with an example of getting some data out of the system or using it for a little demo
 
-## Effecting 
+## Effecting
 
-```
+```js
 var app = function () {
   var hideQOTD = document.getElementById('quote-of-the-day')
   hideQOTD.hidden = true
