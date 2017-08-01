@@ -11,3 +11,7 @@ body{
 .red-quote{
   color: red;
 }
+
+img {
+  max-width: 500px;
+}
