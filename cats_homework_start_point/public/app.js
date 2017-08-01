@@ -13,10 +13,10 @@ var createUlCat = function() {
   return ul
 }
 
-var createLi = function(li) {
-  var newLi = document.createElement("li")
-  name.innerText = li
-  return newLi
+var createLi = function(newLi) {
+  var li = document.createElement("li")
+  li.innerText = newLi
+  return li
 }
 
 var createPhoto = function(newImg) {

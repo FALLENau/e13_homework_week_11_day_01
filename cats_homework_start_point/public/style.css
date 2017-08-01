@@ -1,4 +1,4 @@
-body{
+body {
   background: #333;
   color: orange;
 }
@@ -8,10 +8,19 @@ body{
   height: 50px;
 }
 
-.red-quote{
+.red-quote {
   color: red;
 }
 
 img {
   max-width: 500px;
+}
+
+.cat {
+  list-style: none;
+
+}
+
+li {
+   margin:0 0 10px 0;
 }
