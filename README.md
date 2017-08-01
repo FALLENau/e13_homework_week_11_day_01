@@ -36,7 +36,7 @@ window.addEventListener('load', app);
 
 ### Break down into
 
-Experimenting to make become more familiar with JavaScript in D.O.M
+Experimenting to become more familiar with JavaScript in D.O.M
 
 ```js
 var appendElements = function(ulCat, liName, liFood, liPhoto) {
