@@ -21,9 +21,11 @@ var createLi = function(newLi) {
 
 var createPhoto = function(newImg) {
   var img = document.createElement("img")
+  var li document.createElement("li")
   img.src = newImg
-  return img
-}
+  li.appendChild(img)
+  return li
+}//refacted to have img inside li
 
 var appendElements = function(ulCat, liName, liFood, liPhoto) {
   var section = document.querySelector("#cats")
@@ -38,3 +40,4 @@ var app = function() {
 }
 
 window.addEventListener('load', app)
+// window.onload = app //2nd way to load in window
